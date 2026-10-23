@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Kassim Umar's developer portfolio. Explore my background, technical skills, projects, and experience in software development."
+    >
+
+    <meta name="theme-color" content="#0b1020">
+
+    <title>Kassim Umar | Developer Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container" aria-label="Main navigation">
+
+            <a href="#home" class="logo">
+                KU<span>.</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="nav-links"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+
+                <li>
+                    <button
+                        id="theme-toggle"
+                        class="theme-toggle"
+                        type="button"
+                        aria-label="Switch colour theme"
+                        title="Switch colour theme"
+                    >
+                        <span id="theme-icon" aria-hidden="true">☀</span>
+                    </button>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <p class="eyebrow">
+                        COMPUTER SCIENCE STUDENT · ASPIRING DEVELOPER
+                    </p>
+
+                    <h1>
+                        Hi, I'm <span class="accent-text">Kassim Umar.</span>
+                    </h1>
+
+                    <h2 class="hero-subtitle">
+                        I enjoy turning ideas into useful digital experiences.
+                    </h2>
+
+                    <p class="hero-description">
+                        Aspiring software developer interested in mobile and web
+                        development, with a focus on building useful applications
+                        and improving the way people interact with technology.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            Explore My Projects
+                        </a>
+
+                        <a href="#contact" class="btn btn-secondary">
+                            Get In Touch
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a
+                            href="https://github.com/Umar-12345-hub"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Visit my GitHub profile"
+                        >
+                            GitHub ↗
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/in/kassim-umar-350425352"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Visit my LinkedIn profile"
+                        >
+                            LinkedIn ↗
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <div class="hero-visual" aria-label="Developer introduction">
+
+                    <div class="code-window">
+
+                        <div class="window-header">
+                            <div class="window-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <p>about-me.js</p>
+                        </div>
+
+                        <div class="code-content">
+                            <p>
+                                <span class="code-purple">const</span>
+                                developer = {
+                            </p>
+
+                            <p class="code-indent">
+                                name:
+                                <span class="code-green">'Kassim Umar'</span>,
+                            </p>
+
+                            <p class="code-indent">
+                                focus:
+                                <span class="code-green">'Software Development'</span>,
+                            </p>
+
+                            <p class="code-indent">
+                                interests: [
+                            </p>
+
+                            <p class="code-indent code-more">
+                                <span class="code-green">'Mobile Apps'</span>,
+                            </p>
+
+                            <p class="code-indent code-more">
+                                <span class="code-green">'Web Development'</span>
+                            </p>
+
+                            <p class="code-indent">],</p>
+
+                            <p class="code-indent">
+                                mindset:
+                                <span class="code-green">'Keep Learning'</span>
+                            </p>
+
+                            <p>};</p>
+
+                            <p class="code-comment">
+                                // Building one step at a time.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="floating-badge">
+                        <span class="status-dot"></span>
+                        Always learning
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- About Section -->
+        <section class="section section-alt" id="about">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">A LITTLE ABOUT ME</p>
+                    <h2>Learning by <span class="accent-text">building.</span></h2>
+                    <p>
+                        My journey so far, what interests me, and what I hope to build.
+                    </p>
+                </div>
+
+
+                <div class="about-grid">
+
+                    <div class="about-card about-intro">
+                        <div class="about-symbol" aria-hidden="true">&lt;/&gt;</div>
+
+                        <h3>Who I Am</h3>
+
+                        <p>
+                            I'm a Computer Science student at Accra Technical
+                            University, Ghana. I'm interested in how technology
+                            can solve everyday problems, and I enjoy learning
+                            by working on practical projects.
+                        </p>
+
+                        <p>
+                            I'm particularly interested in mobile application
+                            development and web development. My goal is to keep
+                            improving my technical skills, learn from experienced
+                            developers, and build applications that people can
+                            genuinely find useful.
+                        </p>
+                    </div>
+
+
+                    <div class="about-card about-details">
+
+                        <div class="detail-item">
+                            <span class="detail-label">Education</span>
+                            <h3>BTech Computer Science</h3>
+                            <p>Accra Technical University</p>
+                            <p class="muted-text">Expected graduation: 2028</p>
+                        </div>
+
+                        <div class="detail-item">
+                            <span class="detail-label">Main Interests</span>
+                            <h3>Mobile & Web Development</h3>
+                            <p>Building useful, user-focused applications.</p>
+                        </div>
+
+                        <div class="detail-item">
+                            <span class="detail-label">Current Approach</span>
+                            <h3>Learn. Build. Improve.</h3>
+                            <p>Growing through practice and real-world experience.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Experience Section -->
+        <section class="section" id="experience">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">MY JOURNEY</p>
+                    <h2>Experience & <span class="accent-text">growth.</span></h2>
+                    <p>
+                        Opportunities that have helped me develop my skills.
+                    </p>
+                </div>
+
+
+                <div class="timeline">
+
+                    <article class="timeline-card">
+
+                        <div class="timeline-marker"></div>
+
+                        <div class="timeline-content">
+
+                            <div class="timeline-top">
+                                <div>
+                                    <p class="experience-type">INTERNSHIP</p>
+                                    <h3>Mobile App Developer Intern</h3>
+                                    <h4>Coldsis GH</h4>
+                                </div>
+
+                                <span class="experience-status">
+                                    Completed
+                                </span>
+                            </div>
+
+                            <p>
+                                My internship gave me the opportunity to experience
+                                practical software development beyond classroom
+                                theory. I worked on development tasks, explored
+                                project ideas, and learned more about approaching
+                                technical challenges.
+                            </p>
+
+                            <p>
+                                One important lesson was that development involves
+                                more than writing code. Understanding errors,
+                                investigating possible solutions, and being
+                                patient with the process are all part of the work.
+                            </p>
+
+                            <div class="tag-list">
+                                <span>Mobile Development</span>
+                                <span>Problem Solving</span>
+                                <span>Practical Learning</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="timeline-card">
+
+                        <div class="timeline-marker"></div>
+
+                        <div class="timeline-content">
+
+                            <div class="timeline-top">
+                                <div>
+                                    <p class="experience-type">EDUCATION</p>
+                                    <h3>BTech Computer Science</h3>
+                                    <h4>Accra Technical University</h4>
+                                </div>
+
+                                <span class="experience-status">
+                                    In Progress
+                                </span>
+                            </div>
+
+                            <p>
+                                Studying Computer Science while developing my
+                                understanding of programming, software development,
+                                databases, and the foundations of computing.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Skills Section -->
+        <section class="section section-alt" id="skills">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">MY TOOLKIT</p>
+                    <h2>Technologies I'm <span class="accent-text">working with.</span></h2>
+                    <p>
+                        Tools and languages I've been learning through coursework
+                        and personal development.
+                    </p>
+                </div>
+
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+                        <div class="skill-icon">HTML</div>
+                        <h3>HTML5</h3>
+                        <p>Structuring web pages and content.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">CSS</div>
+                        <h3>CSS3</h3>
+                        <p>Styling responsive and accessible interfaces.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">JS</div>
+                        <h3>JavaScript</h3>
+                        <p>Adding interaction and behaviour to web pages.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">Py</div>
+                        <h3>Python</h3>
+                        <p>Programming fundamentals and problem solving.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">Dart</div>
+                        <h3>Dart</h3>
+                        <p>Learning and developing with the Dart language.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">FL</div>
+                        <h3>Flutter</h3>
+                        <p>Exploring cross-platform mobile app development.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">Java</div>
+                        <h3>Java</h3>
+                        <p>Developing programming and object-oriented concepts.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">Git</div>
+                        <h3>Git & GitHub</h3>
+                        <p>Version control and managing code repositories.</p>
+                    </article>
+
+                </div>
+
+
+                <p class="skills-note">
+                    I'm still learning, and this list will grow as I gain more
+                    experience and complete more projects.
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">THINGS I'M BUILDING</p>
+                    <h2>Projects & <span class="accent-text">experiments.</span></h2>
+                    <p>
+                        A look at what I'm working on as I develop my skills.
+                    </p>
+                </div>
+
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+
+                        <div class="project-visual fixit-visual">
+                            <div class="project-visual-content">
+                                <span class="project-label">PERSONAL PROJECT</span>
+
+                                <div class="fixit-logo">
+                                    <span class="fixit-icon">F</span>
+                                    <span>FixIt GH</span>
+                                </div>
+
+                                <p>Connecting people with local artisans.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="project-body">
+
+                            <div class="project-heading">
+                                <h3>FixIt GH</h3>
+                                <span class="project-status">In Development</span>
+                            </div>
+
+                            <p>
+                                A mobile application project focused on helping
+                                people find and book artisans for services they
+                                need. I'm developing the customer-facing side
+                                while continuing to improve the application.
+                            </p>
+
+                            <div class="tag-list">
+                                <span>Flutter</span>
+                                <span>Dart</span>
+                                <span>Mobile App</span>
+                            </div>
+
+                            <button
+                                class="project-details-btn"
+                                type="button"
+                                data-project="fixit"
+                            >
+                                View Project Details <span aria-hidden="true">↗</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card project-coming-soon">
+
+                        <div class="coming-soon-visual">
+                            <span class="coming-soon-symbol" aria-hidden="true">+</span>
+                            <p>Room for the next idea</p>
+                        </div>
+
+                        <div class="project-body">
+                            <p class="project-label">COMING NEXT</p>c b 
+                            <h3>More Projects Ahead</h3>
+
+                            <p>
+                                I'm continuing to practise, experiment with new
+                                ideas, and build projects that help me grow as
+                                a developer.
+                            </p>
+
+                            <div class="tag-list">
+                                <span>Learning</span>
+                                <span>Building</span>
+                                <span>Improving</span>
+                            </div>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section class="section section-alt" id="contact">
+            <div class="container">
+
+                <div class="contact-card">
+
+                    <p class="eyebrow">LET'S CONNECT</p>
+
+                    <h2>
+                        Have an idea or an <span class="accent-text">opportunity?</span>
+                    </h2>
+
+                    <p class="contact-description">
+                        I'm open to connecting with developers, learning from
+                        others, and exploring opportunities to grow through
+                        practical software development.
+                    </p>
+
+                    <a
+                        href="mailto:umarkassim056@gmail.com"
+                        class="btn btn-primary"
+                    >
+                        Email Me
+                    </a>
+
+
+                    <div class="contact-links">
+
+                        <a href="mailto:umarkassim056@gmail.com">
+                            umarkassim056@gmail.com
+                        </a>
+
+                        <a
+                            href="https://github.com/Umar-12345-hub"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub ↗
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/in/kassim-umar-350425352"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            LinkedIn ↗
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Project Details Modal -->
+    <div
+        class="modal"
+        id="project-modal"
+        aria-hidden="true"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+    >
+
+        <div class="modal-backdrop" data-close-modal></div>
+
+        <div class="modal-content">
+
+            <button
+                class="modal-close"
+                id="modal-close"
+                type="button"
+                aria-label="Close project details"
+            >
+                &times;
+            </button>
+
+            <p class="eyebrow">PROJECT DETAILS</p>
+
+            <h2 id="modal-title">FixIt GH</h2>
+
+            <p id="modal-description">
+                FixIt GH is a mobile application project currently in development.
+            </p>
+
+            <h3>What I'm focusing on</h3>
+
+            <ul class="modal-list">
+                <li>Building the customer-facing mobile interface.</li>
+                <li>Creating a clear flow for finding and booking artisans.</li>
+                <li>Improving the user experience as development continues.</li>
+            </ul>
+
+            <p class="modal-note">
+                This project is still in development, so some features and
+                implementation details may change.
+            </p>
+
+            <a
+                href="mailto:umarkassim056@gmail.com?subject=Question%20about%20FixIt%20GH"
+                class="btn btn-primary"
+            >
+                Ask Me About This Project
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <a href="#home" class="logo footer-logo">
+                KU<span>.</span>
+            </a>
+
+            <p>
+                Designed and built by Kassim Umar.
+            </p>
+
+            <p class="copyright">
+                &copy; <span id="current-year"></span> Kassim Umar.
+                Keep learning. Keep building.
+            </p>
+
+        </div>
+    </footer>
+
+</body>
+</html>
